@@ -23,7 +23,7 @@ load_dotenv()
 
 # Вставьте сюда токен от BotFather, если не хотите использовать переменные окружения.
 # Можно оставить значение по умолчанию и задать TELEGRAM_BOT_TOKEN в системе или .env.
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN") or ""
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
